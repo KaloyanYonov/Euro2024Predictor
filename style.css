@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+}
+
+.Group {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+.Group button {
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #7b7171;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.Group ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Group li {
+    margin: 5px;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+}
