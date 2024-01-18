@@ -1,15 +1,6 @@
-const selectedTeams = {
-    'Group A': ['Germany', 'Scotland', 'Hungary', 'Switzerland'],
-    'Group B': ['Spain', 'Italy', 'Croatia', 'Albania'],
-    'Group C': ['Slovenia', 'Denmark', 'Serbia', 'England'],
-    'Group D': ['Poland/Wales', 'Netherlands', 'Austria', 'France'],
-    'Group E': ['Belgium', 'Slovakia', 'Romania', 'Ukraine'],
-    'Group F': ['Turkey', 'Georgia', 'Portugal', 'Czechia'],
-};
-function selectTeam(button) {
-    const group = button.parentNode.parentNode;
-    const groupName = group.querySelector('h2').textContent;
-    const teamName = button.textContent;
 
+<<<<<<< HEAD
     // nothing yet
 }
+=======
+>>>>>>> 9336fc56d42ad15df3fbbae3e6a9175ee8252e8b
