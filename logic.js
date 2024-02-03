@@ -30,6 +30,7 @@ function updatePositions(group, button, action) {
 
     button.classList.add(action);
 
+<<<<<<< HEAD
 }
 
 function clearPosition(button) {
@@ -62,3 +63,5 @@ function adjustSelections(group) {
         });
     }
 }
+=======
+>>>>>>> ee635f4947309e49e4555e6d4a4d591c659ebb9b
