@@ -1,33 +1,76 @@
 body {
-    text-align: center;
+    background-image: url('2024.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
 }
 
 .Group {
-    display: inline-block;
+    flex: 1; 
     margin: 10px;
-    padding: 10px;
-    border: 1px solid lightgray;
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.Group button {
-    margin: 5px;
-    padding: 5px;
-    cursor: pointer;
-    background-color: #7b7171;
-    color: white;
-    border: none;
-    border-radius: 4px;
+button {
+    font-size: larger; 
+    margin: 5px; 
+}
+
+.Group h2 {
+    color: #007bff;
 }
 
 .Group ul {
-    list-style-type: none;
+    display: flex;
+    flex-direction: column;
     padding: 0;
+    list-style: none;
 }
 
-.Group li {
-    margin: 5px;
-    cursor: pointer;
-    padding: 5px;
-    border: 1px solid #ccc;
-    background-color: #f8f8f8;
+.Group button {
+    margin: 5px 0;
+    width: 100%;
 }
+
+.Group button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.Group label {
+    display: block;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.Group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.Group button.selected {
+    background-color: #28a745;
+}
+
+.Group button:not(.selected):hover {
+    background-color: #007bff;
+}
+
+.Group button.first { 
+    background-color: #28a745;
+ } 
+.Group button.second { 
+    background-color: #17a2b8; 
+} 
+.Group button.third { 
+    background-color: #ffc107; 
+} 
